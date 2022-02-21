@@ -1,0 +1,112 @@
+CRITICAL - 2022-02-20 13:49:47 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 13:49:47 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\wamp64\www\vhosts\roxter.us\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-20 13:51:04 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 13:51:04 --> syntax error, unexpected 'protected' (T_PROTECTED)
+#0 C:\wamp64\www\vhosts\roxter.us\system\Autoloader\Autoloader.php(245): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\v...')
+#1 C:\wamp64\www\vhosts\roxter.us\system\Autoloader\Autoloader.php(223): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\vhosts\roxter.us\app\Controllers\Home.php(5): spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\vhosts\roxter.us\system\Autoloader\Autoloader.php(268): include_once('C:\\wamp64\\www\\v...')
+#5 C:\wamp64\www\vhosts\roxter.us\system\Autoloader\Autoloader.php(245): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\v...')
+#6 C:\wamp64\www\vhosts\roxter.us\system\Autoloader\Autoloader.php(223): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(795): class_exists('\\App\\Controller...', true)
+#10 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->startController()
+#11 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\vhosts\roxter.us\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-20 13:52:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-02-20 13:52:05 --> Table 'testing.ci_sessions' doesn't exist
+CRITICAL - 2022-02-20 13:52:05 --> Table 'testing.ci_sessions' doesn't exist
+#0 C:\wamp64\www\vhosts\roxter.us\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `data`\nF...', 0)
+#1 C:\wamp64\www\vhosts\roxter.us\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 C:\wamp64\www\vhosts\roxter.us\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 C:\wamp64\www\vhosts\roxter.us\system\Database\BaseBuilder.php(1467): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 C:\wamp64\www\vhosts\roxter.us\system\Session\Handlers\DatabaseHandler.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('5lij6q8fmtnl4ar...')
+#6 C:\wamp64\www\vhosts\roxter.us\system\Session\Session.php(894): session_start()
+#7 C:\wamp64\www\vhosts\roxter.us\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#8 C:\wamp64\www\vhosts\roxter.us\system\Config\Services.php(595): CodeIgniter\Session\Session->start()
+#9 C:\wamp64\www\vhosts\roxter.us\system\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 C:\wamp64\www\vhosts\roxter.us\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\wamp64\www\vhosts\roxter.us\system\Config\Services.php(581): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 C:\wamp64\www\vhosts\roxter.us\system\Config\BaseService.php(251): CodeIgniter\Config\Services::session()
+#13 C:\wamp64\www\vhosts\roxter.us\system\Common.php(960): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 C:\wamp64\www\vhosts\roxter.us\app\Controllers\BaseController.php(49): service('session')
+#15 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(808): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#16 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->createController()
+#17 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 C:\wamp64\www\vhosts\roxter.us\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#19 {main}
+CRITICAL - 2022-02-20 13:57:34 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+ERROR - 2022-02-20 13:57:35 --> Table 'testing.ci_sessions' doesn't exist
+CRITICAL - 2022-02-20 13:57:35 --> Table 'testing.ci_sessions' doesn't exist
+#0 C:\wamp64\www\vhosts\roxter.us\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `data`\nF...', 0)
+#1 C:\wamp64\www\vhosts\roxter.us\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 C:\wamp64\www\vhosts\roxter.us\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 C:\wamp64\www\vhosts\roxter.us\system\Database\BaseBuilder.php(1467): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 C:\wamp64\www\vhosts\roxter.us\system\Session\Handlers\DatabaseHandler.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('5lij6q8fmtnl4ar...')
+#6 C:\wamp64\www\vhosts\roxter.us\system\Session\Session.php(894): session_start()
+#7 C:\wamp64\www\vhosts\roxter.us\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#8 C:\wamp64\www\vhosts\roxter.us\system\Config\Services.php(595): CodeIgniter\Session\Session->start()
+#9 C:\wamp64\www\vhosts\roxter.us\system\Config\BaseService.php(251): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 C:\wamp64\www\vhosts\roxter.us\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\wamp64\www\vhosts\roxter.us\system\Config\Services.php(581): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 C:\wamp64\www\vhosts\roxter.us\system\Config\BaseService.php(251): CodeIgniter\Config\Services::session()
+#13 C:\wamp64\www\vhosts\roxter.us\system\Common.php(960): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 C:\wamp64\www\vhosts\roxter.us\app\Controllers\BaseController.php(49): service('session')
+#15 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(808): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#16 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(408): CodeIgniter\CodeIgniter->createController()
+#17 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 C:\wamp64\www\vhosts\roxter.us\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#19 {main}
+CRITICAL - 2022-02-20 13:58:56 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 13:58:57 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 13:58:57 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:00:14 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:00:14 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:00:15 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:00:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:00:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:00:18 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:24:49 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:24:49 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:24:50 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:24:52 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:24:52 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 14:24:52 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:41:05 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:41:06 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:41:06 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:41:08 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:41:10 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:41:13 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:43:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:43:29 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:43:29 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:43:30 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:44:08 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:44:12 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:44:12 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:44:13 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:44:14 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:50:25 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:50:26 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:50:26 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:50:28 --> Toolbar collector does not exists(Myth\Auth\Collectors\Auth).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-02-20 18:51:33 --> unlink(C:\wamp64\www\vhosts\roxter.us\writable\debugbar/debugbar_1645331552.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp6...', 'C:\\wamp64\\www\\v...', 74, Array)
+#1 C:\wamp64\www\vhosts\roxter.us\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vhosts\roxter.us\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1645404691, 20)
+#3 C:\wamp64\www\vhosts\roxter.us\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\wamp64\www\vhosts\roxter.us\app\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\wamp64\www\vhosts\roxter.us\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\wamp64\www\vhosts\roxter.us\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\wamp64\www\vhosts\roxter.us\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
